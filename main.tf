@@ -1,4 +1,4 @@
-resource "local_file" "hey_devops" {
+resource "local_file" "hey_shiva" {
 filename = var.filename
 content = var.content
 }
