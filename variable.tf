@@ -2,11 +2,11 @@
 variable "filename" {
   description = "The name of the file to create"
   type        = string
-  default     = "shiva.txt"
+  default     = "myinfo.txt"
 }
 
 variable "content" {
   description = "The content to put inside the file"
   type        = string
-  default     = "Hello shiva welcome"
+  default     = "This file contains my info"
 }
